@@ -11,5 +11,9 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MauiBindingACS" Version="1.0.0" />
+    <PackageReference Include="MauiBindingACSAzureCore" Version="1.0.0" />
+    <PackageReference Include="MauiBindingACSAzureCoreLogging" Version="1.0.0" />
+    <PackageReference Include="MauiBindingACSCommon" Version="1.0.0" />
+    <PackageReference Include="Xamarin.Android.JakeWharton.ThreeTenAbp" Version="1.3.1" />
   </ItemGroup>
 </Project>
