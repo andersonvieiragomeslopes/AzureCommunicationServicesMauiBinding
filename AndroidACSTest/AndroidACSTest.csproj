@@ -10,10 +10,24 @@
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
   </PropertyGroup>
   <ItemGroup>
+    <AndroidJavaSource Remove="Nugets\**" />
+    <AndroidLibrary Remove="Nugets\**" />
+    <AndroidNativeLibrary Remove="Nugets\**" />
+    <Compile Remove="Nugets\**" />
+    <EmbeddedResource Remove="Nugets\**" />
+    <JavaSourceJar Remove="Nugets\**" />
+    <None Remove="Nugets\**" />
+    <ProguardConfiguration Remove="Nugets\**" />
+    <TransformFile Remove="Nugets\**" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="MauiBindingACS" Version="1.0.0" />
     <PackageReference Include="MauiBindingACSAzureCore" Version="1.0.0" />
     <PackageReference Include="MauiBindingACSAzureCoreLogging" Version="1.0.0" />
     <PackageReference Include="MauiBindingACSCommon" Version="1.0.0" />
     <PackageReference Include="Xamarin.Android.JakeWharton.ThreeTenAbp" Version="1.3.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MauiBindingACSAzureCommunicationCallingHelper\MauiBindingACSAzureCommunicationCallingHelper.csproj" />
   </ItemGroup>
 </Project>
